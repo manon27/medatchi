@@ -1,6 +1,0 @@
-php56 1
-
-<Files ./config.txt>
-Order Allow,Deny
-Deny from all
-</Files>
