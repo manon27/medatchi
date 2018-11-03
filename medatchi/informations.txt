@@ -1,0 +1,22 @@
+Pour pouvoir utiliser ce système, vous devez créer une table "users" dans la base de donnée.
+Voici la requete SQL à effectuer:
+
+-- 
+-- Structure de la table `users`
+-- 
+
+CREATE TABLE `users` (
+  `id` bigint(20) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `avatar` text NOT NULL,
+  `signup_date` int(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+
+Ensuite, vous devrez indiquer les identifiants de la base de donnée dans le fichier config.php
+
+Cordialement, http://www.supportduweb.com
